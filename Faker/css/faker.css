@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+/* Thầy thông cảm giúp e 1 số lệnh em không nhớ tác dụng nên phải note lại khi cần kéo lên thấy ngay đỡ phải search ạ */
+body{
+    background-image: url(../img/background1.png);
+}
+.container{
+    width: 80%;
+    /*margin dùng để căn giữa*/
+    margin: 0 auto;     
+    
+}
+/* Menu */
+.menu{
+    height: 50px;
+    background-color: #333;
+    margin-bottom: 1%;
+}
+
+.menu > ul > li{
+    list-style: none;
+    /*dàn hàng menu*/
+    float: left;
+    position: relative;
+    
+}
+
+.menu > ul > li > a{
+    /*bỏ gạch chân*/
+    text-decoration: none;
+    /* căn giữa theo chiều dọc */
+    line-height: 50px;
+    color: #fff;
+    /* opx: trên dưới, 20px: trái phải */
+    padding: 0px 41.5px;
+    /* Định dạng 1 khối riêng cho thẻ */
+    display: block;
+}
+.menu > ul > li >a:hover{
+    background-color: rgb(116, 113, 113); 
+    color: #333;
+    
+}
+/* menu cho Highlight */
+.submenu{
+    width: 154px;
+    background-color: indianred;
+    line-height: 60px;
+    position: absolute;
+    /* ẩn menu con */
+    display: none;
+}
+
+.submenu li {
+    list-style: none;
+}
+
+.submenu li a{
+    text-decoration: none;
+    line-height: 60px;
+    display: block;
+    color: #fff;
+    /* dịch sang bên phải */
+    text-indent: 17px;
+    border-top: 1px #333 solid;
+}
+
+.submenu li a:hover{
+    background-color: rgb(226, 75, 75);
+    color: black;
+
+}
+
+/* hover sẽ hiểu là menu con */
+.menu > ul > li:hover .submenu{
+    display: block;
+}
+
+/* Banner */
+.banner img{
+    width: 100%;
+    height: 600px;
+}
+/* Ảnh và nội dung */
+.main{
+    margin-top: 30px;
+
+    height: 500px;
+}
+
+.main h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main .bentrai{
+    float: left;
+    width: 47%;
+}
+
+.main .benphai{
+    float: right;
+    width: 47%;
+
+}
+
+.main .bentrai img{
+    width: 100%;
+}
+/* Menu Đội tuyển */
+.submenu1{
+    width: 151.5px;
+    background-color: indianred;
+    line-height: 60px;
+    position: absolute;
+    display: none;
+}
+
+.submenu1 li {
+    list-style: none;
+}
+
+.submenu1 li a{
+    text-decoration: none;
+    line-height: 60px;
+    display: block;
+    color: #fff;
+    text-indent: 17px;
+    border-top: 1px #333 solid;
+}
+
+.submenu1 li a:hover{
+    background-color: rgb(226, 75, 75);
+    color: black;
+
+}
+.menu > ul > li:hover .submenu1{
+    display: block;
+}
+/* Menu thành tích */
+.submenu2{
+    width: 156.5px;
+    background-color: indianred;
+    line-height: 60px;
+    position: absolute;
+    display: none;
+}
+
+.submenu2 li {
+    list-style: none;
+}
+
+.submenu2 li a{
+    text-decoration: none;
+    line-height: 60px;
+    display: block;
+    color: #fff;
+    text-indent: 17px;
+    border-top: 1px #333 solid;
+}
+
+.submenu2 li a:hover{
+    background-color: rgb(226, 75, 75);
+    color: black;
+
+}
+.menu > ul > li:hover .submenu2{
+    display: block;
+}
+
+.title_2{
+    margin-top: 30px;
+}
+
+/* Căn lề trên của ảnh: 185px */
+.su-nghiep{
+    margin-top: 35%;
+    margin-bottom: 10%;
+}
+
+.su-nghiep img{
+    width: 100%;
+}
+
+/* Căn đều chữ nội dung tiểu sử*/
+.content-1 p{
+    text-align: justify;
+}
+
+/* Căn đều chữ nội dung 2 */
+.content-2 p{
+    text-align: justify;
+
+}
+
+.content-3{
+    margin-top: 27%;
+    text-align: justify;
+}
+
+.content-2{
+    margin-bottom: 20%;
+}
+
+footer{
+    height: 100px;
+    background-color: rgb(187, 15, 15);
+    margin-top: 10%;
+}
+
+footer p{
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content-1 p:hover{
+    font-style: italic;
+}
+.content-2 p:hover{
+    font-style: italic;
+}
+.content-3 p:hover{
+    font-style: italic;
+}
+
+.anh3{
+    margin-top: 5%;
+    margin-left: 19%;
+}
+
+.headphan3{
+    margin-top: 4%;
+}
+
+.content-4 p:hover{
+    font-style: italic;
+}
+.headphan4{
+    margin-top: 4%;
+}
+
+.content-5 p:hover{
+    font-style: italic;
+}
+.anh4{
+    margin-top: 5%;
+    margin-left: 19%;
+}
